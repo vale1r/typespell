@@ -1,6 +1,6 @@
 # Typingspell
 
-Trying out angular with a spelling game
+Trying out angular with a spelling game.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.5.
 

@@ -1,0 +1,37 @@
+#content { 
+  	margin: 5px;
+  	padding:5px; 
+  	text-size:large;
+  	color: fuchsia;
+  	visibility: hidden; 
+}
+
+
+#rewards ul {
+	list-style-type: none;
+
+}
+
+#rewards li {
+	float: left;
+}
+
+
+#learnedWords{
+	float: right;
+}
+
+#learnedWords ul {
+	list-style-type: none;
+
+}
+
+#learnedWords li {
+	float: left;
+}
+
+img {
+     max-width: 50px;
+    height: auto;
+    min-width: 10px;
+}

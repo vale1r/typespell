@@ -1,0 +1,27 @@
+
+<div class="w3-row">
+<div id="content" class="w3-center" [@showReward]='rewardState' >You got a reward!!!</div>
+<div id="content" class="w3-center" [@showPoints]='pointState' >You got 5 words correct!!!</div>
+<div id="content" class="w3-center" [@learnedWord]='learnedWordState' >You learned a new word!!!</div>
+</div>
+
+<div class="w3-row">
+<div id="rewards" class="w3-half">
+<ul>
+	<li *ngFor="let star of rewards">
+		<img src="../assets/saturn.svg" >
+	</li>
+</ul>
+</div>
+
+
+<div id="learnedWords" class="w3-half">
+<ul>
+	<li *ngFor="let blackhole of learnedWords">
+		<img src="../assets/blackhole.svg">
+	</li>
+</ul>
+</div>
+</div>
+
+<!--<div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>-->

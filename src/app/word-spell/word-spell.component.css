@@ -1,0 +1,55 @@
+
+#letters {
+
+	height: 80px;
+	background-color: fuchsia;
+	display: inline-block;
+	opacity: 0.3;
+}
+
+#letters ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#letters li {
+	float: left;
+}
+
+#letters li span {
+	display: block;
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+	font-family: arial;
+	font-size: 3.5em;
+	opacity: 0.9;
+}
+
+.correct {
+	color:aqua;
+}
+
+.inCorrect {
+	color:lime;
+}
+
+#spellInput input {
+	background: transparent;
+    border: none;
+}
+
+#controlls {
+	text-align: center;
+	width: 100%;
+}
+
+#controlls input {
+	width: 90px;
+	height: 40px;
+	background-color: aqua;
+	opacity: 0.6;
+ 	border: none;
+}

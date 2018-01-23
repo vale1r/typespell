@@ -1,0 +1,17 @@
+
+/*header h1 { text-align: center }
+
+#mainDIV {
+	text-align: center;
+	height: 600px;
+	position: relative;
+}
+*/
+
+
+footer { 
+	position: fixed;
+	bottom: 0;
+	min-height: 30px; 
+}
+

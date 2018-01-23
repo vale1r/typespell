@@ -1,0 +1,40 @@
+
+
+<!--This is the word: {{currentWord.spell}}
+<br>-->
+
+<div class="w3-row w3-center">
+	<div id="letters">
+		<ul>
+		<li *ngFor="let letter of speltLetters">
+			<span *ngIf="!letter.isCorrect" ngClass="inCorrect">{{letter.letter}}</span>
+			<span *ngIf="letter.isCorrect" ngClass="correct">{{letter.letter}}</span>
+		</li>
+		</ul>
+	</div>
+</div>
+
+<div id="spellInput" class="w3-row">
+
+
+<input [(ngModel)]="speltWord" (keyup)=checkSpelling(speltWord) #theInputField/>
+</div>
+ 
+<div id="controlls">
+<span *ngIf="showStart">
+<input (click)='startPlaying();' type='button' value='🔊 Start' />
+</span>
+<div id="counter">
+   Correct words {{correctWords}}
+</div>
+
+<input (click)='showWord();' type='button' value='👁 Show ' />
+<input (click)='repeatWord();' type='button' value='🔊 Repeat' />
+
+
+</div>
+<div class="w3-row">
+<app-rewards></app-rewards>
+</div>
+
+

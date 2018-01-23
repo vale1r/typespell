@@ -1,0 +1,22 @@
+ 
+ To start playing typing spell:
+
+start backend:
+ pm2 start server.js 
+
+start frontend: 
+
+sudo systemctl start nginx
+
+
+To install a new version:
+
+ng build -prod
+cp dist/* /var/www/html/
+
+
+Other nginx commands:
+
+    sudo systemctl stop nginx
+    sudo systemctl start nginx
+    sudo systemctl restart nginx

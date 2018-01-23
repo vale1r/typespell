@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+html {
+	height: 100%;
+}
+body{
+	background-image: url("assets/Hubble-ugc1810-background.jpg");
+	color: aqua;
+	min-height: 100%;
+	display: flex;
+	flex-flow: column;
+	background-position: center;
+    background-size: cover;
+}
+
+
+img {
+     max-width: 100%;
+    height: auto;
+}
